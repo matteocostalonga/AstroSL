@@ -1,0 +1,31 @@
+---
+title: "First Question"
+description: "How can i build a website?"
+---
+
+import { Code } from '@astrojs/starlight/components';
+import { Aside } from '@astrojs/starlight/components';
+
+export const exampleCode = `console.log('This could come from a file or CMS!');`;
+export const fileName = 'example.js';
+export const highlights = ['file', 'CMS'];
+
+
+<Aside>A default aside without a custom title.</Aside>
+
+<Aside type="caution" title="Watch out!">
+  A warning aside *with* a custom title.
+</Aside>
+
+<Aside type="tip">
+
+Other content is also supported in asides.
+```js
+npm install @astro-latest
+```
+
+</Aside>
+
+<Aside type="danger">Do not give your password to anyone.</Aside>
+
+<Code code={exampleCode} lang="js" title={fileName} mark={highlights} />

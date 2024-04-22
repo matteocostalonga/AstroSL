@@ -1,0 +1,48 @@
+---
+title: Test 2
+description: Questo è il secondo test
+sidebar:
+    label: Tesssst 2
+    order: 2
+    hidden: false
+    badge:
+        text: Experimental
+        variant: caution
+    attrs:
+        target: _blank
+        style: 'font-style: italic'
+tableOfContents:
+    minHeadingLevel: 1
+    maxHeadingLevel: 2 # doesn't display heading 3
+prev: This text has been changed
+next:
+    label: Text and url have been changed
+    link: /tests/test-3
+pagefind: false # don't show this page in the search results
+category: test
+tags: 
+    - test
+    - experimental
+    - second
+    - toc
+    - hidden
+    - badge
+    - target
+    - blank
+    - prev
+    - next
+    - pagefind
+---
+
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+Tags:
+<ul>
+    {frontmatter.tags.map((tag, index) => (
+        <li key={index}>{tag}</li>
+    ))}
+</ul>
