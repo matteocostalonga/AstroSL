@@ -5,13 +5,6 @@ const canEdit = true;
 
 // https://astro.build/config
 export default defineConfig({
-	output: 'server',
-	adapter: node({
-		mode: "standalone"
-	}),
-	server: {
-		host: true
-	},
 	integrations: [
 		starlight({
 			title: 'F. Technology',
