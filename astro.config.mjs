@@ -10,6 +10,9 @@ export default defineConfig({
 			title: 'F. Technology',
 			description: 'F. Technology is a software development company that specializes in building web and mobile applications.',
 			favicon: '/favicon.svg',
+			customCss: [
+				'./src/styles/custom.css',
+			],
 			logo: {
 				src: './src/assets/houston.webp',
 			},

@@ -4,11 +4,11 @@ pubDate: 2022-07-01
 description: 'This is the first post of my new Astro blog.'
 author: 'Astro Learner'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
-    alt: 'The full Astro logo.'
+    url: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg'
+    alt: 'A cool landscape!'
 tags: ["astro", "blogging", "learning in public"]
 ---
-# My First Blog Post
+# My Second Blog Post
 
 Published on: 2022-07-01
 
